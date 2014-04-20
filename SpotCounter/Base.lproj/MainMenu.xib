@@ -738,16 +738,53 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIv-y7-F5h">
+                        <rect key="frame" x="186" y="71" width="48" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSQuickLookTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2qy-cF-g1w">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="viewRed:" target="OFf-LD-foY" id="JpE-cC-akk"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zvf-Px-YlJ">
+                        <rect key="frame" x="186" y="46" width="48" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSQuickLookTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="znx-eo-9cs">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="viewYellow:" target="OFf-LD-foY" id="bBt-LC-WMc"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JXf-tw-GaJ">
+                        <rect key="frame" x="186" y="21" width="48" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSQuickLookTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rf5-HG-4Al">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="viewGreen:" target="OFf-LD-foY" id="ZYu-RT-SHJ"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
         </window>
         <viewController id="OFf-LD-foY" customClass="SCViewController">
             <connections>
                 <outlet property="greenField" destination="mNu-u8-bnj" id="IZ9-qV-Tky"/>
+                <outlet property="image" destination="5p0-HL-QBY" id="ydB-uk-3xG"/>
                 <outlet property="redField" destination="NBM-NC-QE9" id="son-Le-qV1"/>
                 <outlet property="view" destination="EiT-Mj-1SZ" id="Vg7-gC-aM9"/>
                 <outlet property="yellowField" destination="y1O-2P-HuT" id="wnc-EB-XRU"/>
             </connections>
         </viewController>
     </objects>
+    <resources>
+        <image name="NSQuickLookTemplate" width="21" height="16"/>
+    </resources>
 </document>

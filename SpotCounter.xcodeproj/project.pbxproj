@@ -727,6 +727,7 @@
 				D1E37B731902E43200B47C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1E37B741902E43200B47C62 /* Build configuration list for PBXNativeTarget "SpotCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +736,7 @@
 				D1E37B761902E43200B47C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

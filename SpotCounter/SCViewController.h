@@ -13,8 +13,16 @@
 @property (weak) IBOutlet NSTextField *redField;
 @property (weak) IBOutlet NSTextField *yellowField;
 @property (weak) IBOutlet NSTextFieldCell *greenField;
+@property (weak) IBOutlet NSImageView *image;
+@property NSString* redPath;
+@property NSString* yellowPath;
+@property NSString* greenPath;
 
 
 - (void) processImage: (NSString *) file;
+
+- (IBAction)viewRed:(id)sender;
+- (IBAction)viewYellow:(id)sender;
+- (IBAction)viewGreen:(id)sender;
 
 @end
